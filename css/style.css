@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: content-box;
+    box-sizing: border-box;
 }
 
 body{
@@ -13,8 +13,14 @@ body{
     max-width: 1920px;
 }
 
+.row{
+    width: inherit;
+    line-height: normal;
+    margin: 20px auto;
+}
+
 .title{
-    display: inline-block;
+    text-align: center;
 }
 
 .bg-white{
@@ -24,13 +30,11 @@ body{
 .card{
     float: left;
     display: inline-block;
-    position: relative;
-    top: 20px;
-    left: 60px;
+    position: relative;   
     height: 220px;
     width: 200px;
     border-radius: 15px;
-    margin: 10px;
+    margin: 0 10px;
 }
 
 .box-img{
@@ -44,9 +48,11 @@ body{
 .text{
     position: absolute;
     bottom: 20px;
-    left: 30%;
+    left: 0;
+    right: 0;
     z-index: 1;
     color: violet;
+    text-align: center;
     font-size: 1.2em;
     font-weight: 800;
 }
@@ -64,8 +70,14 @@ body{
     z-index: 10;
 }
 
-.card-pattern:hover{
+.card:hover .card-pattern{
     display: none;
+}
+
+.clearfix{
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .air-baloon{
@@ -90,4 +102,8 @@ body{
 
 .tram{
     background-image: url(../img/noun_Tram_3134750.png) ;
+}
+
+#footer-caption{
+    text-align: center;
 }
