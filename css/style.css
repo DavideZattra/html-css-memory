@@ -1,0 +1,43 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+body{
+    background-color: lightblue;
+    
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.card{
+    position: relative;
+    height: 300px;
+    width: 225px;
+    border-radius: 15px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card-pattern{
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+    background-image: url(../img/pattern.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.card-pattern:hover{
+    display: none;
+}
+
+.air-baloon{
+    background-image: url(../img/noun_air_balloon_3134741.png) ;
+}
