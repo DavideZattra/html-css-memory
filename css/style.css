@@ -14,7 +14,7 @@ body{
 }
 
 .row{
-    width: inherit;
+    /* width: 50%; */
     line-height: normal;
     margin: 20px auto;
 }
@@ -22,6 +22,8 @@ body{
 .title{
     text-align: center;
     color: ivory;
+    text-transform: uppercase;
+    text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.5);
 }
 
 .bg-white{
@@ -46,7 +48,7 @@ body{
     background-size: contain;
 }
 
-.text{
+.card-text{
     position: absolute;
     bottom: 20px;
     left: 0;
@@ -57,6 +59,8 @@ body{
     text-transform: capitalize;
     font-size: 1.2em;
     font-weight: 800;
+    text-shadow: 1.5px 1.5px 1.5px rgba(0, 0, 0, 0.5);
+
 }
 
 .card-pattern{
